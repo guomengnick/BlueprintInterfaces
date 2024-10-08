@@ -24,6 +24,11 @@
 		{
 			"Name": "JsonBlueprintUtilities",
 			"Enabled": true
+		},
+		{
+			"Name": "SerialPort",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/3bf2df93d5d34d95b68ba82eca0ca7e7"
 		}
 	]
 }
