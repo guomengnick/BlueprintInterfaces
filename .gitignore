@@ -1,1 +1,4 @@
 ﻿*.log
+/Plugins
+/Content
+/Saved
