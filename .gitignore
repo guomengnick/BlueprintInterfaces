@@ -1,34 +1,20 @@
-﻿*.log
+﻿# *.log
 /Plugins
-# /Content
 /Saved
-*.tmp
-*.log
-*.vs
-*.sln
-*.dll
-*.exe
-*.obj
-*.pdb
-*.idb     
-*.pch
-*.ipdb
-*.aps
-
-# 忽略中間文件
-/Intermediate/
-/DerivedDataCache/
-/Saved/
-/Binaries/
-
-# Unreal Engine 基本忽略規則
-# *.uasset
-*.umap
-*.log
-*.tmp
+# *.tmp
+# *.log
+# *.vs
+# *.sln
+# *.dll
+# *.exe
+# *.obj
+# *.pdb
+# *.idb     
+# *.pch
+# *.ipdb
+# *.aps
 
 
-# 必須追蹤的例外
-!/Content/Widgets/
-!/Content/UI/
-!/Source/
+# *.umap
+# *.log
+# *.tmp
