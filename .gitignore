@@ -1,4 +1,39 @@
 ﻿*.log
 /Plugins
-/Content
+# /Content
 /Saved
+*.tmp
+*.log
+*.vs
+*.sln
+*.dll
+*.exe
+*.obj
+*.pdb
+*.idb
+*.pch
+*.ipdb
+*.aps
+
+# 忽略中間文件
+/Intermediate/
+/DerivedDataCache/
+/Saved/
+/Binaries/
+
+# Unreal Engine 基本忽略規則
+# *.uasset
+*.umap
+*.log
+*.tmp
+
+# 忽略臨時文件夾
+/Intermediate/
+/Saved/
+/Binaries/
+/DerivedDataCache/
+
+# 必須追蹤的例外
+!/Content/Widgets/
+!/Content/UI/
+!/Source/
