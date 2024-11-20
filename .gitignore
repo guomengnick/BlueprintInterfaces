@@ -10,7 +10,7 @@
 *.exe
 *.obj
 *.pdb
-*.idb
+*.idb     
 *.pch
 *.ipdb
 *.aps
@@ -27,11 +27,6 @@
 *.log
 *.tmp
 
-# 忽略臨時文件夾
-/Intermediate/
-/Saved/
-/Binaries/
-/DerivedDataCache/
 
 # 必須追蹤的例外
 !/Content/Widgets/
