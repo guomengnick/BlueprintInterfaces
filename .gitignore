@@ -1,20 +1,3 @@
-﻿# *.log
-/Plugins
 /Saved
-# *.tmp
-# *.log
-# *.vs
-# *.sln
-# *.dll
-# *.exe
-# *.obj
-# *.pdb
-# *.idb     
-# *.pch
-# *.ipdb
-# *.aps
-
-
-# *.umap
-# *.log
-# *.tmp
+/Plugins
+/Intermediate
