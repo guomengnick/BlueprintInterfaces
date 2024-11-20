@@ -1,0 +1,66 @@
+option = {
+   "title": {
+      "text": "電流",
+      "left": "center",
+      "top": "0",
+      "textStyle": {
+         "color": "#ffffff",
+         "fontSize": 24
+      }
+   },
+   "tooltip": {
+      "trigger": "axis"
+   },
+   "legend": {
+      "textStyle": {
+         "color": "#ffffff",
+         "fontSize": 19
+      },
+      "data": [
+      ]
+   },
+   "grid": {
+      "left": "1%",
+      "right": "1%",
+      "top": "1%",
+      "bottom": "1%",
+      "containLabel": true
+   },
+   "toolbox": {
+      "feature": {}
+   },
+   "xAxis": {
+      "type": "category",
+      "boundaryGap": false,
+      "data": [
+         "0", "-1", "-2", "-3", "-4", "-5", "-6", "-7", "-8", "-9",
+         "-10", "-11", "-12", "-13", "-14", "-15", "-16", "-17", "-18", "-19",
+         "-10", "-11", "-12", "-13", "-14", "-15", "-16", "-17", "-18", "-19",
+         "-10", "-11", "-12", "-13", "-14", "-15", "-16", "-17", "-18", "-19"
+      ],
+      "axisLabel": {
+         "interval": 1,
+         "showMinLabel": true,
+         "showMaxLabel": true
+      }
+   },
+   "yAxis": {
+      "type": "value",
+      "min": 0,
+      "max": 100
+   },
+   "series": [
+      {
+         "name": "CPU Load",
+         "type": "line",
+         "stack": "Total",
+         "data": [
+            45, 62, 30, 55, 70, 60, 50, 68, 80, 75,
+            40, 35, 55, 65, 20, 45, 55, 70, 60, 50,
+            40, 35, 55, 65, 20, 45, 55, 70, 60, 50,
+            40, 35, 55, 65, 20, 45, 55, 70, 60, 50
+         ]
+      }
+   ],
+   "animation": false
+}
